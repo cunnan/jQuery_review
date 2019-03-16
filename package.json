@@ -1,0 +1,25 @@
+{
+  "name": "jQuery_review",
+  "version": "1.0.0",
+  "description": "jQuery practice demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cunnan/jQuery_review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cunnan/jQuery_review/issues"
+  },
+  "homepage": "https://github.com/cunnan/jQuery_review#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^14.0.0"
+  }
+}
