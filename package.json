@@ -17,9 +17,7 @@
     "url": "https://github.com/cunnan/jQuery_review/issues"
   },
   "homepage": "https://github.com/cunnan/jQuery_review#readme",
-  "dependencies": {},
   "devDependencies": {
-    "jquery": "^3.3.1",
-    "jsdom": "^14.0.0"
+    "jquery": "^3.3.1"
   }
 }
