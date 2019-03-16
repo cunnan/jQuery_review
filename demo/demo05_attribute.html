@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./../node_modules/jquery/dist/jquery.js"></script>
+</head>
+<body>
+  <div class="a"></div>
+   <input type="text">
+    <script>
+        // 核心DOM API
+        // $('.a').attr({id:'div'})
+        // $('input').attr({value:'今天是周六'})
+        //HTML标准API
+        $('.a').prop({id:'div'})
+        $('input').prop({value:'今天是周六'})
+    </script>
+</body>
+</html>

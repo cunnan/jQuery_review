@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./../node_modules/jquery/dist/jquery.js"></script>
+    <style>
+        .style{
+            width: 200px;
+            height: 100px;
+            background: #afa;
+        }
+        .show{
+            border: 5px solid #faf;
+        }
+    </style>
+</head>
+<body>
+  <div class="a"></div>
+  <button>switch</button>
+  <script>
+    //   $('.a').css({
+    //       width:300,
+    //       height:300,
+    //       background:'#afa'
+    //   })
+    // $('.a').addClass('style')
+    $('.a').addClass('style show')
+    // 删除show样式
+    $('.a').removeClass('show')
+    // show样式切换，有时则删除，无时则添加
+    $('button').click(function(){
+        $('.a').toggleClass('show')
+    })
+  </script>
+</body>
+</html>
